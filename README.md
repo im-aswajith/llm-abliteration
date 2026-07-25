@@ -139,6 +139,25 @@ Run the main abliteration script
 python advanced_abliterate.py
 ```
 
+If you have ≥12 GB VRAM (full precision, faster)
+```bash
+python advanced_abliterate.py --num-samples 64 --verbose
+```
+
+If you have 8–12 GB VRAM (use 4‑bit to save memory)
+
+```bash
+python advanced_abliterate.py --load-4bit --num-samples 64 --verbose
+```
+
+If you have ≤8 GB VRAM
+
+```bash
+python advanced_abliterate.py --load-4bit --batch-size 2 --num-samples 32 --verbose
+```
+
+
+
 Chat with the exported model
 
 ```bash
