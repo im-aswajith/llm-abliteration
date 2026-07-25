@@ -126,7 +126,7 @@ cd llm-abliteration
 Install dependencies
 
 ```bash
-pip install torch transformers scipy numpy tqdm
+pip install torch transformers accelerate bitsandbytes datasets tqdm scipy
 ```
 
 ---
