@@ -118,7 +118,7 @@ Because weights are modified directly after analysis, no gradient-based training
 Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/llm-abliteration.git
+git clone https://github.com/im-aswajith/llm-abliteration.git
 
 cd llm-abliteration
 ```
